@@ -6,10 +6,7 @@
 */
 
 public class BinaryNode {
-/**
-* author: sunxing007,
-* 转载请注明来自http://blog.csdn<a href="http://lib.csdn.net/base/dotnet" class='replace_word' title=".NET知识库" target='_blank' style='color:#df3434; font-weight:bold;'>.NET</a>/sunxing007
-**/
+
 	private int value;//current value
 	private BinaryNode lChild;//left child
 	private BinaryNode rChild;//right child
