@@ -10,7 +10,7 @@ public class MyHashMap<K, V> {
     private static float LOAD_FACTOR = 0.75f;// 装载因子
     private int max;// 能存的最大的数=capacity*factor
 
-    // 自己设置容量和装载因子的构造器
+    // 设置容量和装载因子的构造器
     public MyHashMap(int init_Capaticy, float load_factor) {
         if (init_Capaticy < 0)
             throw new IllegalArgumentException("Illegal initial capacity: "
@@ -140,7 +140,6 @@ public class MyHashMap<K, V> {
         table[index] = temp;
         //！！！！！！！！！！！！！！！
         //因为每次设置后都是新的链表，需要将其后接的结点都去掉
-        //NND，少这一行代码卡了哥哥7个小时（代码重构）
         temp.next = null;
     }
 
