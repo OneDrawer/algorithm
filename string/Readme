@@ -1,0 +1,7 @@
+MaxContinueSubstr.c            最大连续字符
+strcompress.py                 字符串压缩
+UnionFindSets.c                并查集
+ReverStr.c                     字符串反转
+longestPalindrome.c            最长回文子串
+myAtoi.c                       字符串转整数
+lengthOfLongestSubstring.py    最大长度子串
